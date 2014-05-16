@@ -17,11 +17,16 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+# ------------------------------------------------------------------------
+
+# Python 3.4 with "pip install argparse urwid"
+# Python 2.7 with "pip install argparse urwid enum34"
+
+
 import urwid
 import urwid.widget
 from enum import Enum
 
-# Pyhon 3.4
 
 class ReplColors(Enum):
     black_on_white = '001'
