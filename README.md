@@ -1,8 +1,7 @@
 bmutils
 =======
 
-bmutils
-
+repl: list of questions & answers user interface, which evaluates basic python expressions
 
 History
 =======
