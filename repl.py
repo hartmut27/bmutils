@@ -118,7 +118,7 @@ class ReplApp:
             self.drop_message('Exit')
             raise urwid.ExitMainLoop
 
-        # remove edit field under caret
+        # remove edit field under caret and its answers (text fields) 
         if key == 'ctrl x':
             w, p = self.repl_items.body.get_focus()
             if w is None:
@@ -130,11 +130,11 @@ class ReplApp:
                     return
                 if p2 < p:
                     break
+                # exit if next edit field is reached                
                 if type(w2.base_widget) == urwid.widget.Edit:
                     return
                 self.repl_items.body.remove(w2)
-
-            # letztes Eingabefeld löschen, wenn darunter nichts und darüber ein Text ist
+            # jump to previous edit field if caret is placed on a text widget
             if type(w2.base_widget) != urwid.widget.Edit:
                 self.move_cursor_to_edit_field(direction='prev')
             return
