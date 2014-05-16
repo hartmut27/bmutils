@@ -21,6 +21,7 @@ import urwid
 import urwid.widget
 from enum import Enum
 
+# Pyhon 3.4
 
 class ReplColors(Enum):
     black_on_white = '001'
