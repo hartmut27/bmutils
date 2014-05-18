@@ -1,8 +1,7 @@
 bmutils
 =======
 
-List of questions & answers in a REPL console user interface, which evaluates basic python expressions. 
-(Build using Urwid console widgets library.)
+- bmutils-repl: Python expression console user interface using Urwid
 
 screenshot
 ![bmutils-repl screenshot](https://raw.githubusercontent.com/hartmut27/bmutils/master/screenshots/bmutils-repl-16-05-2014_17-01-45.png?raw=true)
