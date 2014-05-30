@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-# bmutils-repl: Read–eval–print loop for python expressions, using Urwid
+# bmutils-repl: Read–eval–print loop for Python expressions, using Urwid
 #
 # Copyright (C) 2014 Hartmut Pfarr
 #
@@ -19,6 +19,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # ------------------------------------------------------------------------
+
 
 # Python 3.4 with "pip install argparse urwid"
 # Python 2.7 with "pip install argparse urwid enum34"
