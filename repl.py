@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-# bmutils-repl
+# bmutils-repl: Read–eval–print loop for python expressions, using Urwid
+#
 # Copyright (C) 2014 Hartmut Pfarr
 #
 # This program is free software: you can redistribute it and/or modify
@@ -64,7 +65,7 @@ class ReplApp:
             (ReplColors.black_on_red, 'black', 'dark red'),
             (ReplColors.black_on_lightgrey, 'black', 'light gray'),
         ]
-        self.header_txt = urwid.Text("bmutils repl")
+        self.header_txt = urwid.Text("bmutils-repl: Read–eval–print loop")
         self.header_text_a = urwid.AttrMap(w=self.header_txt, attr_map=ReplColors.white_on_green)
         self.footer_text = urwid.Text("Ins=Insert Python expression  "
                                       "Ctrl-X=Remove expression\n"
@@ -73,7 +74,7 @@ class ReplApp:
                                       "Ctrl-W=Quit")
         self.footer_text_a = urwid.AttrMap(w=self.footer_text, attr_map=ReplColors.white_on_blue)
         self.repl_items = ReplListbox()
-        self.welcome_text = urwid.Text("Welcome to bmutils repl.")
+        self.welcome_text = urwid.Text("Welcome to bmutils-repl. Please enter Python expressions.")
         self.repl_items.body.append(self.welcome_text)
         self.initial_question = self.new_entry_field()
         self.repl_items.body.append(self.initial_question)
