@@ -4,7 +4,7 @@ bmutils
 bmutils-repl
 ------------
 Read–eval–print loop (REPL): 
-A list of questions & answers, which evaluate basic Python expressions, using Urid
+A list of questions & answers, which evaluate basic Python expressions, using Urwid
 
 screenshot
 ![bmutils-repl screenshot](https://raw.githubusercontent.com/hartmut27/bmutils/master/screenshots/bmutils-repl-16-05-2014_17-01-45.png?raw=true)
