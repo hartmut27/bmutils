@@ -11,12 +11,10 @@ screenshot
 
 History
 =======
+
+2018-11-17   Domain name change, .gitignore
+
 2014-05-30   Improve documentation and licence filename
 
 2014-05-16   Initial version  bmutils-repl
 
-
-
-
-
-.
