@@ -3,7 +3,7 @@
 
 # bmutils-repl: Read–eval–print loop for Python expressions, using Urwid
 #
-# Copyright (C) 2014 Hartmut Pfarr
+# Copyright (C) 2014 https://github.com/hartmut27
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
